@@ -7,17 +7,16 @@ h1 {
   margin-top: 50px;
   margin-bottom: 40px;
   font-family: Georgia;
-  color: #000080;
+  color: #000090;
 }
 
 div.food {
   background-color: #E6E6FA;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 30px;
+  margin-right: 25px;
+  margin-top: 25px;
   border: 1px solid black;
   width: 100%;
-  height: 170px;
+  height: 200px;
   position: relative;
 
 }
@@ -25,34 +24,25 @@ div.food {
 div#h1,div#h2,div#h3 {
   border: 2px solid black;
   height: 25px;
-  width: 136px;
+  width: 140px;
   background-color: white;
   margin-bottom: 15px;
   text-align: center;
   position: absolute;
   top : 0;
   right : 0;
-  /**left: 220px;**/
   font-family: Georgia, serif;
   color: white;
-  font-size: 16px;
+  font-size: 17px;
   font-style: bold;
-
-
 }
-
 div#h1{
-
   background-color: #FF8C00;
 }
-
 div#h2{
-
   background-color: #808000;
 }
-
 div#h3{
-
   background-color: #CD5C5C;
 }
 
@@ -60,13 +50,11 @@ div#h3{
   margin-left: 15px;
   margin-right: 15px;
   margin-top: 30px;
-  
 }
 
 .dishes {
   width: 100%;
 }
-
 
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -159,3 +147,46 @@ div#h3{
   }
 }
 
+@media (max-width: 767px) {
+  .col-sl-1, .col-sl-2, .col-sl-3, .col-sl-4, .col-sl-5, .col-sl-6, .col-sl-7, .col-sl-8, .col-sl-9, .col-sl-10, .col-sl-11, .col-sl-12 {
+    float: left;
+    border: 1px solid white;
+    padding: 20px 20px 20px 20px;
+  }
+  .col-sl-1 {
+    width: 8.33%;
+  }
+  .col-sl-2 {
+    width: 16.66%;
+  }
+  .col-sl-3 {
+    width: 25%;
+  }
+  .col-sl-4 {
+    width: 33.33%;
+  }
+  .col-sl-5 {
+    width: 41.66%;
+  }
+  .col-sl-6 {
+    width: 50%;
+  }
+  .col-sl-7 {
+    width: 58.33%;
+  }
+  .col-sl-8 {
+    width: 66.66%;
+  }
+  .col-sl-9 {
+    width: 74.99%;
+  }
+  .col-sl-10 {
+    width: 83.33%;
+  }
+  .col-sl-11 {
+    width: 91.66%;
+  }
+  .col-sl-12 {
+    width: 100%;
+  }
+}
